@@ -24,7 +24,7 @@
 
 ## 📌 Overview
 
-**System Threat Forecaster** is an end-to-end machine learning project that predicts the likelihood of a Windows device being compromised by malware. Using real-world telemetry data from Microsoft's systems, it applies a full ML pipeline — from raw data ingestion to hyperparameter-tuned ensemble models — to classify system threat risk with high accuracy.
+**System Threat Forecaster** is an end-to-end machine learning project that predicts the likelihood of a Windows device being compromised by malware. Using real-world telemetry data from Microsoft's systems, it applies a full ML pipeline - from raw data ingestion to hyperparameter-tuned ensemble models - to classify system threat risk with high accuracy.
 
 This project demonstrates the intersection of **cybersecurity intelligence** and **predictive machine learning**, a skillset in high demand across data science, security operations, and threat analytics roles.
 
@@ -34,10 +34,10 @@ This project demonstrates the intersection of **cybersecurity intelligence** and
 
 | | Details |
 |---|---|
-| **Task** | Binary Classification — predict malware infection probability |
+| **Task** | Binary Classification - predict malware infection probability |
 | **Domain** | Cybersecurity / System Telemetry |
 | **Dataset** | Microsoft Malware Prediction (via Kaggle) |
-| **Target Variable** | `HasDetections` — whether the device had malware detected |
+| **Target Variable** | `HasDetections` - whether the device had malware detected |
 | **Challenge** | High-dimensional data, class imbalance, mixed feature types |
 
 ---
@@ -109,7 +109,7 @@ All models are wrapped in a **scikit-learn Pipeline** to prevent data leakage an
 | **Notebook** | Jupyter Notebook |
 | **Data Handling** | `pandas`, `numpy` |
 | **Visualization** | `matplotlib`, `seaborn` |
-| **Preprocessing** | `scikit-learn` — `SimpleImputer`, `OneHotEncoder`, `StandardScaler`, `ColumnTransformer` |
+| **Preprocessing** | `scikit-learn` - `SimpleImputer`, `OneHotEncoder`, `StandardScaler`, `ColumnTransformer` |
 | **Feature Selection** | `SelectKBest`, `PCA` |
 | **ML Models** | `RandomForestClassifier`, `XGBClassifier`, `LGBMClassifier` |
 | **Optimization** | `GridSearchCV`, `Pipeline` |
@@ -164,7 +164,7 @@ jupyter notebook Notebook.ipynb
 | 1 | **Package Imports** | Load all libraries and configure settings |
 | 2 | **Data Loading** | Pull Microsoft Malware dataset via `kagglehub` |
 | 3 | **Data Exploration** | Profile distributions, check class balance, identify nulls |
-| 4 | **Data Preprocessing** | Impute, encode, scale — all inside a Pipeline |
+| 4 | **Data Preprocessing** | Impute, encode, scale - all inside a Pipeline |
 | 5 | **Feature Selection** | PCA for dimensionality reduction, SelectKBest for relevance |
 | 6 | **Model Training** | Fit Random Forest, XGBoost, LightGBM |
 | 7 | **Hyperparameter Tuning** | Optimize with GridSearchCV |
@@ -175,11 +175,11 @@ jupyter notebook Notebook.ipynb
 ## 📈 Skills Demonstrated
 
 - **End-to-end ML pipeline design** using `sklearn.Pipeline` and `ColumnTransformer`
-- **Ensemble methods** — bagging (Random Forest) and boosting (XGBoost, LightGBM)
-- **Feature engineering** — dimensionality reduction with PCA and statistical selection
+- **Ensemble methods** - bagging (Random Forest) and boosting (XGBoost, LightGBM)
+- **Feature engineering** - dimensionality reduction with PCA and statistical selection
 - **Hyperparameter optimization** with `GridSearchCV` and cross-validation
-- **Cybersecurity domain knowledge** — understanding system telemetry as ML features
-- **Model evaluation** — beyond accuracy: precision, recall, F1, confusion matrix
+- **Cybersecurity domain knowledge** - understanding system telemetry as ML features
+- **Model evaluation** - beyond accuracy: precision, recall, F1, confusion matrix
 - **Clean, reproducible code** structured for collaboration and review
 
 ---
@@ -197,7 +197,7 @@ This project mirrors the kind of work done by data scientists at security compan
 
 ## 🙋 About the Author
 
-**Aman Mani Tiwari** — Data Science & ML practitioner building portfolio projects at the intersection of AI and real-world domains.
+**Aman Mani Tiwari** - Data Science & ML practitioner building portfolio projects at the intersection of AI and real-world domains.
 
 [![GitHub](https://img.shields.io/badge/GitHub-AmanManiTiwari-181717?style=flat-square&logo=github)](https://github.com/AmanManiTiwari)
 
@@ -205,6 +205,6 @@ This project mirrors the kind of work done by data scientists at security compan
 
 <div align="center">
 
-*Found this useful? Drop a ⭐ — it helps others discover the project!*
+*Found this useful? Drop a ⭐ - it helps others discover the project!*
 
 </div>
