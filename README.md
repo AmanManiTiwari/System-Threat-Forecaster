@@ -15,7 +15,7 @@
 
 <br>
 
-> **Can we predict whether a Windows machine will be infected by malware — before it happens?**
+> **Can we predict whether a Windows machine will be infected by malware - before it happens?**
 > This project builds a production-grade ML pipeline to answer exactly that.
 
 </div>
